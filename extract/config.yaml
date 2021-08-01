@@ -1,0 +1,19 @@
+news_sites:
+    eluniversal:
+        url: https://www.eluniversal.com/
+        queries:
+            homepage_article_links: '.title a'
+            article_body: '.note-text'
+            article_title: '.title a'
+            
+        
+    robotitus:
+        url: https://www.robotitus.com/
+        queries:
+            homepage_article_links: '.pld-post-title a'
+            article_body: ''
+            article_title: ''
+    elpais:
+        url: https://elpais.com/america/
+        
+        
